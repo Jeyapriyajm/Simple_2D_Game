@@ -1,0 +1,155 @@
+.body{
+    margin: 0px;
+}
+
+.background{
+    width: 100%;
+    height: 100vh;
+    background-image: url(recource/one\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: repeat-x;
+    overflow-x: hidden;
+    position: absolute;
+}
+.boy{
+    height: 210px;
+    margin-top: 347px;
+    position: absolute;
+}
+.boy1{
+    height: 350px;
+    margin-right: 700px;
+    position: absolute;
+}
+.box{
+    width: 160px;
+    height: 160px;
+    /*background-color: black;*/
+    position: absolute;
+    margin-top: 425px;
+    background-image: url(recource/Fire.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.boxT{
+    width: 160px;
+    height: 160px;
+    /*background-color: black;*/
+    position: absolute;
+    margin-top: 425px;
+    background-image: url(recource/Fire.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.score{
+    font-size: 50px;
+    font-weight: bold;
+    margin-right: 30px;
+    margin-top: 20px;
+    position: absolute;
+}
+.end{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: linear-gradient(90deg,#252525 0%,#1f1c18 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 90px;
+    font-weight: bold;
+    color: aqua;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    visibility: hidden;
+}
+.btn{
+    height: 40px;
+    width: 400px;
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: 1000;
+    background-color: aqua;
+    border: none;
+    border-radius: 15px;
+
+}
+.btn:hover{
+    height:50px ;
+    width: 450px;
+    background-color: #014570;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+.body1{
+    margin: 0px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(recource/one\ \(2\).jpg);
+}
+.one{
+    align-items: center;
+    justify-content: center;
+    
+}
+.two{
+    position: relative;
+    font-family: 'Broadway';
+    font-size: 2cm;
+    letter-spacing: 2px;
+    background-repeat: no-repeat;
+    background-size: 500px;
+    color:rgb(65, 32, 78);
+}
+.three{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    font-family: Broadway;
+}
+
+.win{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: linear-gradient(90deg,#252525 0%,#1f1c18 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 90px;
+    font-weight: bold;
+    color: aqua;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    visibility: hidden;
+    
+}
+
+.btn3{
+    width: 200px;
+    height: 60px;
+    margin-top: 0px;
+    font-weight: bold;
+    background-color: aquamarine;
+    color: rgb(2, 16, 34);
+    border: none;
+    border-radius: 15px;
+    font-size: 40px;
+    font-family: 'Broadway';
+}
+.btn3:hover{
+    background-color: #014570;
+    width: 250px;
+    height: 70px;
+    cursor: pointer;
+    font-family: 'Broadway';
+
+}
+
+
+

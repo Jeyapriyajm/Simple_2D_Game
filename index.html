@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Runner Boy Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="recource/favicon.ico" type="image/png"  >
+    
+</head>
+<body class="body" onload="idleAnimationStart();createBox();createBoxT();"   onkeypress="keycheck(event);">
+ <div class="background" id="background">
+    <img src="recource/Idle (1).png" alt="boy" class="boy" id="boy">
+    <div class="score" id="score">Score : 0</div>
+</div>
+<div class="end" id="end">
+    <div style="color: beige;">Game Over</div>
+    <div style="color: aqua;">Your score </div>
+    <div style="color: blanchedalmond;" id="endscore">0</div>
+    <img src="recource/Slide (5).png" alt="boy"  class="boy1" >
+    <button class="btn" onclick="reload();">Try Again</button>
+</div>
+<div class="win" id="win">
+    <div class="win"></div>
+    <div id="two">CONGRATULATION</div>
+    <div style="color:aqua;">your Score</div>
+    <img src="recource/Jump (3).png" alt="boy" class="boy1">
+    <div style="color: blanchedalmond;" id="endscore1"></div>
+    <br><br>
+    <button class="btn3" onclick="reload();">PLAY</button>
+</div>
+<script src="javascript.js"></script>
+    
+</body>
+</html>
